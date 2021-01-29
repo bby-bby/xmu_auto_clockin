@@ -25,9 +25,9 @@ def job():
 
 def send_email(email_address):
     mail_host="smtp.qq.com"  #设置服务器
-    mail_user="171932086@qq.com"    #用户名
+    mail_user="xxx@qq.com"    #用户名
     mail_pass=""   #口令
-    sender = '171932086@qq.com'
+    sender = 'xxx@qq.com'
     receivers = [email_address]  # 接收邮件，可设置为你的QQ邮箱或者其他邮箱
     message = MIMEText('打卡成功', 'plain', 'utf-8')
     message['From'] = Header("hwh", 'utf-8')
