@@ -6,4 +6,5 @@ xmu_conoravirus
 webdriver我用的是chromedriver下载地址 http://chromedriver.storage.googleapis.com/index.html
 
 v1_1添加了邮箱提醒功能，需要在job()里配置username、password；在send_email()配置邮箱。
+
 v1_2更改获取账号密码方式为mysql，运行在服务器后台
